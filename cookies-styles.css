@@ -55,7 +55,9 @@
       .container {
         /*======= create a width property. Set the value to 600px */
         margin: 0 auto;
-        width: 600px;
+       /* width: 600px;*/
+        width: 652px; /* If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
+
       }
     
   
@@ -87,6 +89,7 @@
   
       }
   
+      
       .container header nav a:hover {
       /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
   
@@ -102,6 +105,11 @@
       animation-direction: linear;
      }
       
+     .container header img{
+      width: 672px; /* I have modified the width of the img so it looks like in the picture at  https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
+    
+    }
+    
       
       /*======= Create a selector for the about section to have the following styles:
         margin-top: 20px;

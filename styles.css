@@ -62,7 +62,6 @@ Stretch Task: Pick a navigation item and create a new page with the same header 
     */
     img{
       border-radius: 10px;
-      width: 670px; /* I have modified the width of the img so it looks like in the picture at  https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
       
     }
     .content-row {
@@ -106,6 +105,12 @@ Stretch Task: Pick a navigation item and create a new page with the same header 
       to {background-color: yellow;}
 
     }
+
+.container header img{
+  width: 672px; /* I have modified the width of the img so it looks like in the picture at  https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
+
+}
+
 
     .container header nav a:hover {
     /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
