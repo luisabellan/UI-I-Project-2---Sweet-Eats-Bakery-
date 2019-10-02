@@ -55,16 +55,22 @@
       .container {
         /*======= create a width property. Set the value to 600px */
         margin: 0 auto;
-       /* width: 600px;*/
-        width: 600; /* If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
-
+       
+         /* If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
+        width: 600px;
       }
        /* fixing the problem with contact pill going under about pill
        -If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*-/ 
 */
-.container nav{
-  width:652px;
-}
+      .container nav{
+        width:652px;
+      }
+      .container nav a:nth-child(2) {
+        animation-name: colorsAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: linear;
+      }
 
   
       .container header nav a:hover{
@@ -88,8 +94,8 @@
         
       }
       @keyframes colorsAnimation{
-        from {background-color: red;}
-        to {background-color: yellow;
+        from {background-color: #F87B99 ;}
+        to {background-color: red; 
               
         }
   
@@ -107,7 +113,7 @@
            
       animation-name: colorsAnimation;
       animation-duration: 3s;
-      animation-iteration-count: 1;
+      animation-iteration-count: infinite;
       animation-direction: linear;
      }
       
@@ -115,7 +121,12 @@
       width: 672px; /* I have modified the width of the img so it looks like in the picture at  https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
     
     }
-    
+      /* fixing the problem with contact pill going under about pill
+       -If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*-/ 
+*/
+.container nav{
+  width:652px;
+}
       
       /*======= Create a selector for the about section to have the following styles:
         margin-top: 20px;
@@ -158,8 +169,14 @@
         margin: 20px 0;
       }
       
-      footer nav {
+      footer  {
         display: flex;
+      }
+
+      footer .footer-content nav a{
+        text-decoration: none;
+        background-color: none;
+
       }
       
       /*======= Create a selector for the anchor tag in the footer to have the following styles:

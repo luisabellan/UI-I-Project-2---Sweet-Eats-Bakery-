@@ -111,8 +111,9 @@ Stretch Task: Pick a navigation item and create a new page with the same header 
       
     }
     @keyframes colorsAnimation{
-      from {background-color: red;}
-      to {background-color: yellow;}
+      from {background-color: #F87B99;}
+        to {background-color: red; 
+           
 
     }
 
