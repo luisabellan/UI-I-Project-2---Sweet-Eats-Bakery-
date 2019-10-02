@@ -76,7 +76,17 @@ Stretch Task: Pick a navigation item and create a new page with the same header 
     .container {
       /*======= create a width property. Set the value to 600px */
       margin: 0 auto;
-      width: 652px; /* If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
+
+      /* If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*/
+   
+      width: 600px;  
+    
+    }
+      /* fixing the problem with contact pill going under about pill
+       -If I set the value to 600px then the contact pill goes under about, and so it won't look as in the image at: https://tk-assets.lambdaschool.com/44f6a520-b218-4ed1-910b-f4dc876cd1a6_sweet-eats-home-page.png*-/ 
+*/
+    .container nav{
+      width:652px;
     }
   
 
