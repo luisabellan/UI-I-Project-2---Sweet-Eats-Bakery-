@@ -164,6 +164,17 @@
         width: 600px;
       }
       
+      footer .footer-content nav a {
+        text-decoration: none;
+        animation: none;
+        
+      }
+
+      footer.footer-content nav a:visited{
+
+        background-color: none;
+       
+      }
       footer .footer-content h3 {
         padding: 0;
         margin: 20px 0;
@@ -173,11 +184,7 @@
         display: flex;
       }
 
-      footer .footer-content nav a{
-        text-decoration: none;
-        background-color: none;
-
-      }
+      
       
       /*======= Create a selector for the anchor tag in the footer to have the following styles:
         margin: 10px;
@@ -190,8 +197,12 @@
         text-decoration: underline;
       }
       
+      footer .footer-content h3 {
+        margin: 10px;
+      }
+
       footer nav a:first-child {
-        margin-left: 0;
+        margin-left: 10px;
       }
       
       /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
@@ -199,6 +210,7 @@
       */
       footer nav a:hover{
         color: white;
+
       }
       footer .footer-content .copyright {
         padding: 20px 0;
