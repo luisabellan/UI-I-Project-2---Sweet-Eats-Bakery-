@@ -65,7 +65,7 @@
       .container nav{
         width:652px;
       }
-      .container nav a:nth-child(2) {
+      .container .upper-nav a:nth-child(2) {
         animation-name: colorsAnimation;
         animation-duration: 3s;
         animation-iteration-count: infinite;
@@ -73,11 +73,12 @@
       }
 
   
-      .container header nav a:hover{
+      .upper-nav header nav a:hover{
         animation-name: colorsAnimation;
-        animation-duration: 5sec;
+        animation-duration: infinite;
       }
-  
+      
+    
       .container header nav a {
         margin: 0 10px;
         border: 1px solid lightgray;
@@ -151,12 +152,14 @@
         line-height: 2;
       }
   
-      footer {
+    
+      footer  {
+        display: flex;
         width: 100%;
-       
         background: #F87B99;
         border-top: 1px dashed white;
       }
+     
       
       footer .footer-content { 
         margin: 0 auto; 
@@ -164,28 +167,19 @@
         width: 600px;
       }
       
-      footer .footer-content nav a {
-        text-decoration: none;
-        animation: none;
-        
-      }
+      
 
-      footer.footer-content nav a:visited{
-
-        background-color: none;
-       
-      }
+     
       footer .footer-content h3 {
         padding: 0;
         margin: 20px 0;
       }
       
-      footer  {
-        display: flex;
+      
+      footer .footer-content nav a {
+        text-decoration: none;
+        
       }
-
-      
-      
       /*======= Create a selector for the anchor tag in the footer to have the following styles:
         margin: 10px;
         color: black;
